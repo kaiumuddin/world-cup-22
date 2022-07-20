@@ -38,7 +38,7 @@ main {
 }
 
 .banner-container>div {
-    height: 50%;
+    width: 50%;
 }
 
 .banner-description {
@@ -65,9 +65,11 @@ main {
 }
 
 .banner-img {
-    background-image: url("../assets/banner-image.png");
+    background: url("../assets/banner-image.png");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+
 }
 
 .banner-description .button {

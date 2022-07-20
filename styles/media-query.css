@@ -9,9 +9,6 @@
         text-align: center;
     }
 
-    .banner-container>div {
-        width: auto
-    }
 
     main {
         grid-template-columns: 1fr;
@@ -64,5 +61,3 @@
         gap: 20px;
     }
 }
-
-/* @media screen and (min-width: 1200px) {} */
