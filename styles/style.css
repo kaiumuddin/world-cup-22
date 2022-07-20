@@ -31,7 +31,7 @@ main {
 
 .banner-container {
     margin-top: 100px;
-    padding: 0 100px;
+    padding: 0 10vw;
     display: flex;
     background: #161616;
     border-radius: 30px;
