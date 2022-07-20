@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+header,
+main {
+    width: 90%;
+    margin: auto;
+}
+
+/* Common Styles */
+.button {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Top Banner  */
+
+.banner-container {
+    margin-top: 100px;
+    padding: 0 100px;
+    display: flex;
+    background: #161616;
+    border-radius: 30px;
+}
+
+.banner-container>div {
+    height: 50%;
+}
+
+.banner-description {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.banner-title h1 {
+    margin: 0 0;
+    width: 90%;
+}
+
+.banner-description p {
+    width: 90%;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.banner-img {
+    background: url("../assets/banner-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-description .button {
+    background-color: red;
+    color: white;
+}
+
+.banner-description i {
+    margin-left: 5px;
+}
+
+
+
+
+
+
+/* Main  */
+
+main {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.upcoming {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.button.upcoming-match {
+    background-color: white;
+    color: black;
+}
+
+.button.all-group {
+    background-color: white;
+    color: black;
+}
+
+.button.blog-btn {
+    background-color: red;
+    color: white;
+}
+
+
+/* Blogs  */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: end;
+    gap: 20px;
+}
+
+.blog-img img {
+    width: 100%;
+}
+
+.blog {
+    /* width: 312px; */
+    padding-bottom: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    border-radius: 20px;
+}
+
+.blog-description {
+    padding: 10px;
+}
+
+.blog-description .button {
+    margin: 10px 0;
+    padding: 5px 10px;
+    color: black;
+    border: 1px solid black;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    padding: 50px 0;
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer hr {
+    width: 70%;
+}
+
+footer h1 {
+    font-size: 80px;
+}
+
+footer .links {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 20px;
+}
