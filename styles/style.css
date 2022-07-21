@@ -110,8 +110,12 @@ main {
 .upcoming .button {
     background-color: white;
     color: black;
-
 }
+
+.time-cmnt .time {
+    margin-right: 19px;
+}
+
 
 /* Blogs  */
 
@@ -143,8 +147,6 @@ main {
     color: black;
     border: 1px solid black;
 }
-
-
 
 
 /* View All button for Tablet */

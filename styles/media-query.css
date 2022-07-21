@@ -1,8 +1,11 @@
 /* Media Query */
 
+
+/* For Phone devices  */
 @media screen and (max-width: 576px) {
 
     .banner-container {
+        margin-top: 20px;
         padding: 20px;
         flex-direction: column;
         /* justify-content: center; */
@@ -59,6 +62,9 @@
     }
 }
 
+
+
+/* For Tablet devices */
 @media screen and (min-width: 576px) and (max-width:1200px) {
 
     main {
