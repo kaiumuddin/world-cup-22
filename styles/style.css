@@ -65,12 +65,12 @@ main {
     font-size: 1vw;
 }
 
+
 .banner-img {
     background: url("../assets/banner-image.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-
 }
 
 .banner-description .button {
