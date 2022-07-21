@@ -25,6 +25,7 @@ main {
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
+    border: 1px solid grey;
 }
 
 /* Top Banner  */
@@ -73,7 +74,7 @@ main {
 }
 
 .banner-description .button {
-    background-color: red;
+    background-color: lightseagreen;
     color: white;
 }
 
@@ -106,22 +107,11 @@ main {
     gap: 20px;
 }
 
-
-.button.upcoming-match {
+.upcoming .button {
     background-color: white;
     color: black;
-}
 
-.button.all-group {
-    background-color: white;
-    color: black;
 }
-
-.button.blog-btn {
-    background-color: red;
-    color: white;
-}
-
 
 /* Blogs  */
 
@@ -154,6 +144,26 @@ main {
     border: 1px solid black;
 }
 
+
+
+
+/* View All button for Tablet */
+
+.view-all-btn {
+    display: none;
+}
+
+.view-all-btn .button {
+    color: white;
+    background-color: lightseagreen;
+}
+
+
+
+
+
+/* footer  */
+
 footer {
     width: 100%;
     height: 400px;
@@ -184,4 +194,8 @@ footer a {
     color: white;
     font-size: 20px;
     margin: 0 20px;
+}
+
+footer .social-links {
+    margin-top: 20px;
 }

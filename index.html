@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/media-query.css" />
     <title>World Cup 2022</title>
+    <style>
+      /* Styles only for Index.html Page  */
+
+      .button.blog-btn {
+        background-color: lightseagreen;
+
+        color: white;
+        border: 0;
+      }
+    </style>
     <script
       src="https://kit.fontawesome.com/72ce39ffb9.js"
       crossorigin="anonymous"
@@ -32,13 +42,18 @@
       </div>
     </header>
 
+    <!-- Main  -->
     <main>
+      <!-- Upcoming section  -->
       <section class="upcoming">
-        <a class="button upcoming-match" href="">Upcoming Match</a>
+        <a class="button upcoming-match" href="upcoming-match.html"
+          >Upcoming Match</a
+        >
         <a class="button all-group" href="">All Group</a>
-        <a class="button blog-btn" href="">Blog</a>
+        <a class="button blog-btn" href="index.html">Blog</a>
       </section>
 
+      <!-- Blogs  -->
       <section class="blogs">
         <div class="blog">
           <div class="blog-img">
@@ -55,6 +70,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Single Blog  -->
         <div class="blog">
           <div class="blog-img">
             <img src="assets/Blog Image.png" alt="" />
@@ -177,8 +194,12 @@
           </div>
         </div>
       </section>
+      <section class="view-all-btn">
+        <a href="" class="button">View All</a>
+      </section>
     </main>
 
+    <!-- Footer  -->
     <footer>
       <h1>Goal</h1>
       <hr />
@@ -189,6 +210,15 @@
         <a href="">Privacy Settings</a>
         <a href="">Goal App</a>
         <a href="">Goal Live</a>
+      </div>
+      <div class="social-links">
+        <a href="https://www.facebook.com/"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="https://www.youtube.com/"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://twitter.com/"><i class="fa-brands fa-youtube"></i></a>
       </div>
     </footer>
   </body>

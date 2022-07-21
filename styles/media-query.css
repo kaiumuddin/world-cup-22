@@ -45,6 +45,11 @@
         gap: 20px;
     }
 
+    .button.upcoming-match,
+    .button.all-group {
+        border: 1px solid grey;
+    }
+
     footer {
         height: auto;
     }
@@ -69,10 +74,26 @@
         height: auto;
     }
 
+    .button.upcoming-match,
+    .button.all-group {
+        border: 1px solid grey;
+    }
+
     .blogs {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         justify-items: end;
         gap: 20px;
+    }
+
+    .view-all-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .view-all-btn .button {
+        display: block;
+        width: 100px;
     }
 }
